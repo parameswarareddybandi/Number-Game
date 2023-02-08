@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Number Game </title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="functioning.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <div class="header">
+            
+            <center>
+                
+                <table>
+                
+                    <tr>
+                    
+                        <td><img src="Numbergame.jpg" height="75" width="75"></td>
+                    
+                        <td><h1> Number Game </h1></td>
+                
+                    </tr>
+                
+                </table>
+            
+            </center>
+        
+        </div>
+        
+        <hr>
+        
+        <div class="content">
+            
+            <h1> Hi Everyone !!!</h1>
+            
+            <br>
+            
+            <p>       Iam B.Parameswara Reddy(20R01A0566) studying in <abbr title="CMR Institute of Technology, Hyderabad.">CMRIT </abbr>college. Currently Iam in 3rd year pursuing <abbr title="Computer Science and Engineering">CSE </abbr>course. <br>
+                <br>Actually, Iam feeling bored and I want to play a game with you. Let's play the number game.</p>
+                
+    <h3> Rules :</h3>
+                
+            <ul>
+                    
+                <li>I assume a number between 1 and 100, you have to guess that number.</li>
+                
+                <li>10 chances are given you to guess that number.</li>
+                
+                <li>Along with the chances, I also give you a hint to know whether that number is higher or lower than your number.</li>
+                
+                <li>Enter your numbers as :</li>
+                
+                <li>Ex: 35</li>
+                
+            </ul>
+            
+            <p> Shall we start the game now :</p>
+            
+            <form name="form1" action="" onSubmit="return false;">
+            
+                <input type="text" name="myGuess" placeholder=" Guess ? " size="20" >
+                
+                <input style="background-color: green;" type="submit" value=" ENTER " onclick="guess();">
+                
+                <br><br>
+
+                <input type="text" name="hint" placeholder=" Hint will be displayed here " size="30">
+            
+            </form>
+
+            <br>
+        
+        </div>
+
+        <hr>
+
+        <div class="rating">
+
+            <p> <b><i>Give me your feedback : </i></b> <center> <img id="r1" src="rating1.png" height="50" width="50" onclick="Rating1();"> <img id="r2" src="rating1.png" height="50" width="50" onclick="Rating2();"> <img id="r3" src="rating1.png" height="50" width="50" onclick="Rating3();"> <img id="r4" src="rating1.png" height="50" width="50" onclick="Rating4();"> <img id="r5" src="rating1.png" height="50" width="50" onclick="Rating5();"> </center> </p>
+
+        </div>
+
+    </div>   
+
+</body>
+
+</html>

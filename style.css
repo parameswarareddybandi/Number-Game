@@ -1,0 +1,36 @@
+.container {
+    
+    border : 2px solid black;
+    
+    padding:15px;
+}
+
+.header {
+
+    background-image : linear-gradient(to right,#527a7a, #85adad,#fff,#fff,#fff,#fff, #85adad,#669999);
+
+}
+
+hr {
+    
+    border: 2px solid black;
+
+}
+
+h1 {
+
+    font-size: 40px;
+
+}
+
+table,td{
+    
+    padding:20px;
+
+}
+
+.rating {
+
+    background-image : linear-gradient(to bottom, #fff,#fff,#527a7a);
+
+}

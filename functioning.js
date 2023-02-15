@@ -1,3 +1,4 @@
+
 var num = Math.floor(Math.random() * 100) + 1;
 
 var tries = 0;
@@ -43,11 +44,19 @@ function guess() {
     }
     
     if(tries == 10){
+
+     if(num == guessed){
         
+        document.form1.hint.value="Hurray ! You Won The Game.";
+        
+        window.setTimeout("location.reload()", 5000);
+    }
+    else {  
         document.form1.hint.value="Sorry ! You Lost The Game. Ans:["+num+"]";
         
         window.setTimeout("location.reload()", 5000);
     }
+}
 
 }
 
